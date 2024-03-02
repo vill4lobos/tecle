@@ -5,21 +5,6 @@ ion-input.main-input {
     background: #121212;
 }
 
-/* ion-popover [popover]:not(:popover-open):not(dialog[open]) {
-    display: contents;
-}
-
-ion-popover .popover-viewport {
-    display: contents;
-}
-.backdrop-no-scroll ion-content {
-    --overflow: hidden;
-}
-.popover-open { pointer-events: all ; }
-ion-input[slot='fixed'] {
-    top: 92.5%
-} */
-
 ion-label {
     margin: 0 0;
 }

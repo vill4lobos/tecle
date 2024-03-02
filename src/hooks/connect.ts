@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Storage, Drivers } from '@ionic/storage';
 
+
+//TODO: Split the following class in connect and utils
+//TODO: change methods' behavior from testing to prod
 export function Connect() {
 
     const [notes, setNotes] = useState<Note[]>([]);

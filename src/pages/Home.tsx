@@ -92,6 +92,8 @@ const Home: React.FC = () => {
           ))}
         </IonList>
 
+
+        {/* TODO: Containerize a few things */}
         <IonPopover isOpen={popoverOpen} ref={pop}
             //onDidDismiss={closePopover}
             onIonPopoverDidDismiss={closePopover}
